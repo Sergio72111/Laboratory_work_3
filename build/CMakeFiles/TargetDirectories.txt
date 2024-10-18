@@ -1,3 +1,3 @@
-C:/Laba_3_Proga/build/CMakeFiles/laba_3_prog.dir
-C:/Laba_3_Proga/build/CMakeFiles/edit_cache.dir
-C:/Laba_3_Proga/build/CMakeFiles/rebuild_cache.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/laba_3_prog.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/edit_cache.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/rebuild_cache.dir
