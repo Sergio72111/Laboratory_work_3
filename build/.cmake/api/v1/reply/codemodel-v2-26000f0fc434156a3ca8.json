@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5.0"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "laba_3_prog",
+					"name" : "DynamicContainers",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "laba_3_prog::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-laba_3_prog-Debug-453bad4a59a2d4c25ec5.json",
-					"name" : "laba_3_prog",
+					"id" : "DynamicContainers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DynamicContainers-Debug-0763490e67eba9c41e26.json",
+					"name" : "DynamicContainers",
 					"projectIndex" : 0
 				}
 			]

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "laba_3_prog.exe"
+			"path" : "DynamicContainers.exe"
 		},
 		{
-			"path" : "laba_3_prog.pdb"
+			"path" : "DynamicContainers.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 4,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -38,17 +38,25 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu++11"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "laba_3_prog::@6890427a1f51a3e7e1df",
+	"id" : "DynamicContainers::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "laba_3_prog",
-	"nameOnDisk" : "laba_3_prog.exe",
+	"name" : "DynamicContainers",
+	"nameOnDisk" : "DynamicContainers.exe",
 	"paths" : 
 	{
 		"build" : ".",

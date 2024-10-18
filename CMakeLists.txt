@@ -1,5 +1,11 @@
-cmake_minimum_required(VERSION 3.5.0)
-project(laba_3_prog VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.10)
 
-add_executable(laba_3_prog main.cpp)
+# Укажите имя проекта
+project(DynamicContainers)
 
+# Укажите стандарт C++
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Добавьте исполняемый файл
+add_executable(DynamicContainers main.cpp)
