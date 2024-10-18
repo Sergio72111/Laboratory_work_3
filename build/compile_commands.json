@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/LABA_3/Laboratory_work_3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++14 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\my_project.dir\\main.cpp.obj -c C:\\LABA_3\\Laboratory_work_3\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++11 -o CMakeFiles\\MyExecutable.dir\\main.cpp.obj -c C:\\LABA_3\\Laboratory_work_3\\main.cpp",
   "file": "C:\\LABA_3\\Laboratory_work_3\\main.cpp",
-  "output": "CMakeFiles\\my_project.dir\\main.cpp.obj"
+  "output": "CMakeFiles\\MyExecutable.dir\\main.cpp.obj"
 }
 ]

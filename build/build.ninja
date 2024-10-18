@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/LABA_3/Laboratory_work_3/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target my_project
+# Object build statements for EXECUTABLE target MyExecutable
 
 
 #############################################
-# Order-only phony target for my_project
+# Order-only phony target for MyExecutable
 
-build cmake_object_order_depends_target_my_project: phony || CMakeFiles/my_project.dir
+build cmake_object_order_depends_target_MyExecutable: phony || CMakeFiles/MyExecutable.dir
 
-build CMakeFiles/my_project.dir/main.cpp.obj: CXX_COMPILER__my_project_unscanned_Debug C$:/LABA_3/Laboratory_work_3/main.cpp || cmake_object_order_depends_target_my_project
-  DEP_FILE = CMakeFiles\my_project.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -Wall -Wextra -pedantic -Werror
-  OBJECT_DIR = CMakeFiles\my_project.dir
-  OBJECT_FILE_DIR = CMakeFiles\my_project.dir
+build CMakeFiles/MyExecutable.dir/main.cpp.obj: CXX_COMPILER__MyExecutable_unscanned_Debug C$:/LABA_3/Laboratory_work_3/main.cpp || cmake_object_order_depends_target_MyExecutable
+  DEP_FILE = CMakeFiles\MyExecutable.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\MyExecutable.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyExecutable.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target my_project
+# Link build statements for EXECUTABLE target MyExecutable
 
 
 #############################################
-# Link the executable my_project.exe
+# Link the executable MyExecutable.exe
 
-build my_project.exe: CXX_EXECUTABLE_LINKER__my_project_Debug CMakeFiles/my_project.dir/main.cpp.obj
+build MyExecutable.exe: CXX_EXECUTABLE_LINKER__MyExecutable_Debug CMakeFiles/MyExecutable.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\my_project.dir
+  OBJECT_DIR = CMakeFiles\MyExecutable.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = my_project.exe
-  TARGET_IMPLIB = libmy_project.dll.a
-  TARGET_PDB = my_project.exe.dbg
+  TARGET_FILE = MyExecutable.exe
+  TARGET_IMPLIB = libMyExecutable.dll.a
+  TARGET_PDB = MyExecutable.exe.dbg
 
 
 #############################################
@@ -99,18 +99,6 @@ build package_source: phony CMakeFiles/package_source.util
 
 
 #############################################
-# Utility command for test
-
-build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\LABA_3\Laboratory_work_3\build && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build test: phony CMakeFiles/test.util
-
-
-#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -132,10 +120,52 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\LABA_3\Laboratory_work_3\build && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\LABA_3\Laboratory_work_3\build && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\LABA_3\Laboratory_work_3\build && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
 
-build my_project: phony my_project.exe
+build MyExecutable: phony MyExecutable.exe
 
 # =============================================================================
 # Folder targets.
@@ -145,7 +175,7 @@ build my_project: phony my_project.exe
 #############################################
 # Folder: C:/LABA_3/Laboratory_work_3/build
 
-build all: phony my_project.exe
+build all: phony MyExecutable.exe
 
 # =============================================================================
 # Built-in targets
