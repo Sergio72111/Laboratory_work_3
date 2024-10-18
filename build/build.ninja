@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: MyProject
+# Project: DynamicContainers
 # Configurations: Debug
 # =============================================================================
 
@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/LABA_3/Laboratory_work_3/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target MyExecutable
+# Object build statements for EXECUTABLE target DynamicContainers
 
 
 #############################################
-# Order-only phony target for MyExecutable
+# Order-only phony target for DynamicContainers
 
-build cmake_object_order_depends_target_MyExecutable: phony || CMakeFiles/MyExecutable.dir
+build cmake_object_order_depends_target_DynamicContainers: phony || CMakeFiles/DynamicContainers.dir
 
-build CMakeFiles/MyExecutable.dir/main.cpp.obj: CXX_COMPILER__MyExecutable_unscanned_Debug C$:/LABA_3/Laboratory_work_3/main.cpp || cmake_object_order_depends_target_MyExecutable
-  DEP_FILE = CMakeFiles\MyExecutable.dir\main.cpp.obj.d
+build CMakeFiles/DynamicContainers.dir/main.cpp.obj: CXX_COMPILER__DynamicContainers_unscanned_Debug C$:/LABA_3/Laboratory_work_3/main.cpp || cmake_object_order_depends_target_DynamicContainers
+  DEP_FILE = CMakeFiles\DynamicContainers.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\MyExecutable.dir
-  OBJECT_FILE_DIR = CMakeFiles\MyExecutable.dir
+  OBJECT_DIR = CMakeFiles\DynamicContainers.dir
+  OBJECT_FILE_DIR = CMakeFiles\DynamicContainers.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target MyExecutable
+# Link build statements for EXECUTABLE target DynamicContainers
 
 
 #############################################
-# Link the executable MyExecutable.exe
+# Link the executable DynamicContainers.exe
 
-build MyExecutable.exe: CXX_EXECUTABLE_LINKER__MyExecutable_Debug CMakeFiles/MyExecutable.dir/main.cpp.obj
+build DynamicContainers.exe: CXX_EXECUTABLE_LINKER__DynamicContainers_Debug CMakeFiles/DynamicContainers.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\MyExecutable.dir
+  OBJECT_DIR = CMakeFiles\DynamicContainers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = MyExecutable.exe
-  TARGET_IMPLIB = libMyExecutable.dll.a
-  TARGET_PDB = MyExecutable.exe.dbg
+  TARGET_FILE = DynamicContainers.exe
+  TARGET_IMPLIB = libDynamicContainers.dll.a
+  TARGET_PDB = DynamicContainers.exe.dbg
 
 
 #############################################
@@ -165,7 +165,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # =============================================================================
 # Target aliases.
 
-build MyExecutable: phony MyExecutable.exe
+build DynamicContainers: phony DynamicContainers.exe
 
 # =============================================================================
 # Folder targets.
@@ -175,7 +175,7 @@ build MyExecutable: phony MyExecutable.exe
 #############################################
 # Folder: C:/LABA_3/Laboratory_work_3/build
 
-build all: phony MyExecutable.exe
+build all: phony DynamicContainers.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,4 +1,4 @@
-C:/LABA_3/Laboratory_work_3/build/CMakeFiles/MyExecutable.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/DynamicContainers.dir
 C:/LABA_3/Laboratory_work_3/build/CMakeFiles/package.dir
 C:/LABA_3/Laboratory_work_3/build/CMakeFiles/package_source.dir
 C:/LABA_3/Laboratory_work_3/build/CMakeFiles/edit_cache.dir
