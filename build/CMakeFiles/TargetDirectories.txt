@@ -1,3 +1,6 @@
-C:/LABA_3/Laboratory_work_3/build/CMakeFiles/DynamicContainers.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/my_project.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/package.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/package_source.dir
+C:/LABA_3/Laboratory_work_3/build/CMakeFiles/test.dir
 C:/LABA_3/Laboratory_work_3/build/CMakeFiles/edit_cache.dir
 C:/LABA_3/Laboratory_work_3/build/CMakeFiles/rebuild_cache.dir
